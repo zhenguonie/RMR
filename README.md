@@ -1,5 +1,6 @@
 # A Robust Surface Mesh Reconstruction Method for Real-Time 3D Visualization in Minimally Invasive Surgery: Addressing Noise, Topology, and Deformation Accuracy
 
+## Note: Open source code after publication of the paper.
 ## Abstract
 Lightweight triangular mesh model has great potential for real-time 3D visualization of the lesion during minimally invasive surgery(MIS). However, the blurred tissue boundaries, high imaging noise, and unoriented points of medical images seriously affect the accuracy and topological quality of surface reconstruction, which will lead to inaccurate lesion localisation. In this paper, we develop a robust and high-topology-quality triangular mesh reconstruction method that provides a good deformable expression model for intraoperative real-time 3D visualization. This method first approximates the model prototype under the guidance of an unsigned distance field by simulating inflation. And then, we design a variance controlled cylindrical domain projection search (VC-CDPS) method to complete the final surface fitting. In addition, we incorporate a topology optimization in the iterative reconstruction process to ensure smoothness and good topology of the reconstruction model. We validated the method on the geometric model with high noise and the human organ model manually segmented by novice doctors. The results show that the reconstructed model has better surface quality and anti-robustness. Moreover, we design a comparison experiment of model deformation and propose a metric to measure the topological quality of the model. Through tissue experiments in vitro, we explore the relationship between the topological quality and the accuracy of deformation. The results show that the deformation accuracy is positively correlated with the topological quality.
 
@@ -8,7 +9,7 @@ Lightweight triangular mesh model has great potential for real-time 3D visualiza
 ## Environment setup
 
 Clone the repo: 
-> https://github.com/zhenguonie/VFCM-CHPS
+> https://github.com/Scalpelapex/A_Robust_Mesh_Reconstruciton
 
 Open this project with Visual Studio 2019 on Windows x64
 
